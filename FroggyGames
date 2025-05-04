@@ -1,3 +1,4 @@
+// File: FroggyGames.js
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -49,7 +50,7 @@ const games = [
   }
 ];
 
-export default function GamePortal() {
+export default function FroggyGames() {
   return (
     <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {games.map((game) => (
@@ -67,3 +68,5 @@ export default function GamePortal() {
     </div>
   );
 }
+
+
